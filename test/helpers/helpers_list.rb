@@ -1,0 +1,7 @@
+require 'helpers/bar_order_helper'
+require 'helpers/cash_box_helper'
+require 'helpers/control_panel_helper'
+require 'helpers/hookah_order_helper'
+require 'helpers/invoices_helper'
+require 'helpers/modal_helper'
+require 'helpers/table_helper'

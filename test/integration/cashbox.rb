@@ -3,68 +3,61 @@ require 'capybara'
 require 'capybara/dsl'
 require 'capybara/webkit'
 
-class BarOrderTest < ActionDispatch::IntegrationTest
+class CashBox < ActionDispatch::IntegrationTest
   include Capybara::DSL
+
+  include BarOrderHelper
+  include CashBoxHelper
+  include InvoicesHelper
+  include ModalHelper
+
+
+  PRODUCT       = 'test drink'
+  PRODUCT_PRICE = 50.0
 
   def setup
     @session = Capybara::Session.new(:webkit)
-    setup_data
-    login
-    workshift('start') unless workshift_is_open?
-
     @before_balance = {}
     @after_balance = {}
   end
+
 
   def teardown
     workshift('stop') if workshift_is_open?
   end
 
-  test "cash payment" do
-    #записать значения баланса наличной и безнал касс
-    @before_balance = get_cashbox_summ
+  test "cashbox summ should change after sale in both paymethods" do
+    login
+    workshift('start') unless workshift_is_open?
 
-    #create new invoice and bar-order with test_product. Return invoice id
-    @id_n_param[:id] = create_bar_order(@test_product[:name])
+    ['Cash','ECash'].each_with_index do |paymethod, index|
 
-    #execution bar-oder
-    @session.find(:xpath, get_status_button(@test_product[:name])).click
-    sleep(2)
-    assert_equal("ЗАВЕРШЕН", @session.find(:xpath, get_status_button(@test_product[:name])).text)
+      @before_balance = get_cashbox_summ
 
-    # закыыть чек, выбрать способ оплаты - налик
-    close_check(@id_n_param[:id], 'Cash')
+      @invoice_id = create_bar_order(PRODUCT)
+      sleep(3)
 
-   # посмотреть текущие значения нал и безнал кассы
-     @after_balance = get_cashbox_summ
+      #после создания заказа попадаем на страницу продаж
+      select_invoice(:OPEN, @invoice_id)
+      assert_equal("ВЫПОЛНИТЬ", check_order_status('bar', PRODUCT))
 
-    # проверить соответствие ожиданиям про сумму в нал  и безнал кассе
-    assert_equal @before_balance[:ecash], @after_balance[:ecash]
-    assert_equal @before_balance[:cash]+@test_product[:price], @after_balance[:cash]
+      change_order_status('bar', PRODUCT)
+      assert_equal("ЗАВЕРШЕН", check_order_status('bar', PRODUCT))
+
+      close_invoice(@invoice_id, paymethod)
+
+      @after_balance = get_cashbox_summ
+
+      if index == 0
+        assert_equal @before_balance[:ecash] , @after_balance[:ecash]
+        assert_equal @before_balance[:cash] + PRODUCT_PRICE , @after_balance[:cash]
+      else
+        assert_equal @before_balance[:cash] , @after_balance[:cash]
+        assert_equal @before_balance[:ecash] + PRODUCT_PRICE , @after_balance[:ecash]
+      end
+    end
   end
 
-  test "Ecash payment" do
-    #записать значения баланса наличной и безнал касс
-    @before_balance = get_cashbox_summ
-
-    #create new invoice and bar-order with test_product. Return invoice id
-    @id_n_param[:id] = create_bar_order(@test_product[:name])
-
-    #execution bar-oder
-    @session.find(:xpath, get_status_button(@test_product[:name])).click
-    sleep(2)
-    assert_equal("ЗАВЕРШЕН", @session.find(:xpath, get_status_button(@test_product[:name])).text)
-
-    # закыыть чек, выбрать способ оплаты - бн
-    close_check(@id_n_param[:id], 'ECash')
-
-    # посмотреть текущие значения нал и безнал кассы
-    @after_balance = get_cashbox_summ
-
-    # проверить соответствие ожиданиям про сумму в нал  и безнал кассе
-    assert_equal @before_balance[:cash], @after_balance[:cash]
-    assert_equal @before_balance[:ecash]+@test_product[:price], @after_balance[:ecash]
-  end
 end
 
 

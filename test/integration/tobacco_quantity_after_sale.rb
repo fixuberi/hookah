@@ -3,36 +3,62 @@ require 'capybara'
 require 'capybara/dsl'
 require 'capybara/webkit'
 
-class BarOrderTest < ActionDispatch::IntegrationTest
+class TobaccoQuantity < ActionDispatch::IntegrationTest
   include Capybara::DSL
+
+  include TableHelper
+  include HookahOrderHelper
+  include InvoicesHelper
+  include ModalHelper
+
+  include PagePath
+  include TestEnv
+
+  url = UrlMake.new
+
+  TOBACCO_PAGE               = url.make INVENTORY_TOBACCO_PATH, SUB1
+  INVOICES_PAGE              = url.make INVOICES_PATH, SUB1
+
+  TOBACCO                    = 'Basil Blast'
+  TOBACCO_QUANTITY_FOR_ORDER = 10.0
+  TOBACCO_PRICE_CATEGORY     = 'Medium'
+
 
   def setup
     @session = Capybara::Session.new(:webkit)
-    setup_data
-    login
-    workshift('start') unless workshift_is_open?
   end
 
   def teardown
     workshift('stop') if workshift_is_open?
   end
 
-  test "hookah order tobacco quantity" do
-    #before-check tobacco qantity
-    before_quantity = get_tobacco_quantity(@test_tobacco[:name])
-    #create hookah order
-    create_hookah_order(@test_tobacco[:name])
 
-    @session.find(:xpath, get_status_button(@test_tobacco[:category])).click
-    sleep(1)
-    assert_equal 'ЗАВЕРШИТЬ', @session.find(:xpath, get_status_button(@test_tobacco[:category])).text
-    @session.find(:xpath, get_status_button(@test_tobacco[:category])).click
-    sleep(1)
-    assert_equal 'ЗАВЕРШЕН', @session.find(:xpath, get_status_button(@test_tobacco[:category])).text
+  test "tobacco quantity should change after execution hookah order" do
+    login
+    workshift('start') unless workshift_is_open?
 
-    #check ingredient quantity after sale
-    after_quantity = get_tobacco_quantity(@test_tobacco[:name])
-    expected_quantity = before_quantity - @test_tobacco[:quantity_for_sale]
-    assert_equal(expected_quantity,after_quantity)
+    @session.visit(TOBACCO_PAGE)
+    sleep(4)
+    @tobacco_quantity = get_value_from_table('name', TOBACCO, 'quantity')
+
+
+    assert_difference  '@tobacco_quantity', -TOBACCO_QUANTITY_FOR_ORDER do
+      @invoice_id = create_hookah_order(TOBACCO)
+
+      change_order_status('hookah', TOBACCO_PRICE_CATEGORY)
+      sleep(1)
+      assert_equal "ЗАВЕРШИТЬ", check_order_status('hookah', TOBACCO_PRICE_CATEGORY)
+
+      change_order_status('hookah', TOBACCO_PRICE_CATEGORY)
+      sleep(1)
+      assert_equal "ЗАВЕРШЕН", check_order_status('hookah', TOBACCO_PRICE_CATEGORY)
+
+      @session.visit(TOBACCO_PAGE)
+      sleep(4)
+      @tobacco_quantity = get_value_from_table('name', TOBACCO, 'quantity')
+    end
+
+    @session.visit(INVOICES_PAGE)
+    close_invoice(@invoice_id, 'Cash')
   end
 end
