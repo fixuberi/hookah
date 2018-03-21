@@ -5,8 +5,11 @@ require 'capybara/dsl'
 require 'capybara/webkit'
 require 'helpers/helpers_list'
 require 'helpers/page_path'
+require "minitest/autorun"
 require "minitest/reporters"
-Minitest::Reporters.use! Minitest::Reporters::HtmlReporter.new
+
+Minitest::Reporters.use! Minitest::Reporters::HtmlReporter.new(reports_dir: 'app/views/test_result')
+ActionDispatch::IntegrationTest.extend Minitest::Spec::DSL
 
 
 class ActiveSupport::TestCase
@@ -14,6 +17,8 @@ class ActiveSupport::TestCase
 
   include PagePath
   include TestEnv
+
+
 
   url  = UrlMake.new
 
@@ -39,7 +44,7 @@ class ActiveSupport::TestCase
     @session.visit(INFOPANEL_PAGE)
     sleep(1)
     assert_equal(INFOPANEL_PAGE, @session.current_url)
-  end
+ end
 
 
 

@@ -15,18 +15,17 @@ class CashBox < ActionDispatch::IntegrationTest
   PRODUCT       = 'test drink'
   PRODUCT_PRICE = 50.0
 
+
   def setup
     @session = Capybara::Session.new(:webkit)
-    @before_balance = {}
-    @after_balance = {}
   end
-
 
   def teardown
     workshift('stop') if workshift_is_open?
   end
 
-  test "cashbox summ should change after sale in both paymethods" do
+
+  test "cashbox summ should change after sale in both paymethod" do
     login
     workshift('start') unless workshift_is_open?
 

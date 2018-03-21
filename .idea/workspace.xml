@@ -6,43 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="548a1cf4-c20d-4290-b2f6-2ece3e84d991" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/usver.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20180226175742_create_usvers.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/run_all_test.rake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/usvers.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/bar_order_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/cash_box_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/control_panel_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/helpers_list.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hookah_order_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/invoices_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/modal_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/page_path.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/table_helper.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/helpers/test_environment.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/integration/clear_generated_tobacco.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/integration/ingredient_quantity_after_sale.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/integration/quantity_product_after_move.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/usver_test.rb" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled5.iml" afterPath="$PROJECT_DIR$/.idea/Hookahmenu test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/11.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/csr.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/scr.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/hookahmenu_pages.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/test_users.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/integration/adding_bar_ingredient.rb" afterPath="$PROJECT_DIR$/test/integration/adding_bar_ingredient.rb" />
-      <change beforePath="$PROJECT_DIR$/test/integration/adding_tobacco.rb" afterPath="$PROJECT_DIR$/test/integration/adding_tobacco.rb" />
-      <change beforePath="$PROJECT_DIR$/test/integration/bar_order_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/integration/cash.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/run_all_test.rake" afterPath="$PROJECT_DIR$/lib/tasks/run_all_test.rake" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/cash_box_helper.rb" afterPath="$PROJECT_DIR$/test/helpers/cash_box_helper.rb" />
       <change beforePath="$PROJECT_DIR$/test/integration/cashbox.rb" afterPath="$PROJECT_DIR$/test/integration/cashbox.rb" />
-      <change beforePath="$PROJECT_DIR$/test/integration/tobacco_quantity_after_sale.rb" afterPath="$PROJECT_DIR$/test/integration/tobacco_quantity_after_sale.rb" />
-      <change beforePath="$PROJECT_DIR$/test/integration/writing_of_ingredient_quantity_after_sale.rb" afterPath="" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modal_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/helpers/modal_helper.rb">
+      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,28 +55,8 @@
       <file leaf-file-name="cashbox.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/integration/cashbox.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quantity_product_after_move.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/integration/quantity_product_after_move.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -112,28 +65,8 @@
       <file leaf-file-name="run_all_test.rake" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/run_all_test.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usvers.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/usvers.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -144,16 +77,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html_reporter.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@hookah/gems/minitest-reporters-1.1.14/lib/minitest/reporters/html_reporter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,13 +103,14 @@
       <find>modal_present?</find>
       <find>BAR_INGREDIENT_PAGE</find>
       <find>visit</find>
+      <find>spec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homepage" />
+        <entry key="$PROJECT_DIR$" value="refactored_1st_edition" />
       </map>
     </option>
   </component>
@@ -214,9 +138,7 @@
         <option value="$PROJECT_DIR$/test/helpers/control_panel_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/remove_group_position.rb" />
         <option value="$PROJECT_DIR$/test/integration/moving.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/tasks/lol.rake" />
-        <option value="$PROJECT_DIR$/test/helpers/cash_box_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/adding_bar_ingredient.rb" />
         <option value="$PROJECT_DIR$/test/integration/ingredient_quantity_after_sale.rb" />
         <option value="$PROJECT_DIR$/test/integration/tobacco_quantity_after_sale.rb" />
@@ -232,9 +154,12 @@
         <option value="$PROJECT_DIR$/test/helpers/hookah_order_helper.rb" />
         <option value="$PROJECT_DIR$/test/helpers/modal_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/quantity_product_after_move.rb" />
-        <option value="$PROJECT_DIR$/test/test_helper.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/test/helpers/cash_box_helper.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/tasks/run_all_test.rake" />
         <option value="$PROJECT_DIR$/test/integration/cashbox.rb" />
+        <option value="$PROJECT_DIR$/test/test_helper.rb" />
       </list>
     </option>
   </component>
@@ -252,10 +177,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="988" />
-    <option name="y" value="21" />
-    <option name="width" value="932" />
-    <option name="height" value="1059" />
+    <option name="x" value="48" />
+    <option name="y" value="-14" />
+    <option name="width" value="1319" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -292,139 +217,95 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="html_reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled5" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled5" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="minitest (v5.11.3, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="minitest (v5.11.3, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="minitest-reporters (v1.1.14, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="minitest-reporters (v1.1.14, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="minitest-reporters (v1.1.14, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="minitest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="minitest-reporters (v1.1.14, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="minitest" type="462c0819:PsiDirectoryNode" />
-              <item name="reporters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hookahmenu test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="minitest-reporters (v1.1.14, RVM: ruby-2.3.1 [hookah]) [gem]" type="70bed36:NamedLibraryElementNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
@@ -906,11 +787,24 @@
       <workItem from="1521150386792" duration="1589000" />
       <workItem from="1521193022176" duration="1753000" />
       <workItem from="1521194845776" duration="1514000" />
+      <workItem from="1521213934190" duration="920000" />
+      <workItem from="1521215180047" duration="1627000" />
+      <workItem from="1521217978207" duration="1301000" />
+      <workItem from="1521249350632" duration="855000" />
+      <workItem from="1521470167475" duration="1750000" />
+      <workItem from="1521471966085" duration="1777000" />
+      <workItem from="1521473811124" duration="1766000" />
+      <workItem from="1521497089760" duration="1560000" />
+      <workItem from="1521627738246" duration="899000" />
+      <workItem from="1521629751520" duration="1363000" />
+      <workItem from="1521631638996" duration="1199000" />
+      <workItem from="1521633566011" duration="1866000" />
+      <workItem from="1521635479581" duration="1769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550196000" />
+    <option name="totallyTimeSpent" value="568848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -922,16 +816,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="988" y="21" width="1865" height="1095" extended-state="6" />
+    <frame x="48" y="-14" width="1865" height="1095" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2262493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23228996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.50278884" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10269083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795155" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14662273" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8123108" sideWeight="0.49721116" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795155" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17682593" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2986882" sideWeight="0.49721116" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795155" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
@@ -948,6 +842,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -958,28 +878,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@hookah/gems/minitest-5.11.3/lib/minitest/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3077">
-          <caret line="181" column="10" lean-forward="false" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/bar_order_test.rb" />
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@hookah/gems/minitest-5.11.3/lib/minitest.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6783">
-          <caret line="399" column="8" lean-forward="false" selection-start-line="399" selection-start-column="8" selection-end-line="399" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Ruby/BarOrderHelper">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1027,13 +925,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uniqposition.png" />
     <entry file="file://$PROJECT_DIR$/test/integration/remove_group_position.rb" />
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/moving.rb" />
     <entry file="uml://Ruby/ActionDispatch::IntegrationTest">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1218,13 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/cash_box_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/helpers/control_panel_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1296,6 +1180,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csr.png" />
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scr.png" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/test_result/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/html_reports/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1870">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/test_result_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helpers/cash_box_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/helpers/modal_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -1304,19 +1240,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csr.png" />
     <entry file="file://$PROJECT_DIR$/test/integration/quantity_product_after_move.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1336,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@hookah/gems/minitest-reporters-1.1.14/lib/minitest/templates/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@hookah/gems/minitest-reporters-1.1.14/lib/minitest/reporters/html_reporter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
@@ -1352,28 +1272,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/run_all_test.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="306">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/html_reports/index.html" />
-    <entry file="file://$PROJECT_DIR$/scr.png" />
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1@hookah/gems/minitest-reporters-1.1.14/lib/minitest/templates/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/cashbox.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>

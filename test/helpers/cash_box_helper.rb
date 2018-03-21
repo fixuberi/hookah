@@ -22,6 +22,6 @@ module CashBoxHelper
        cash: @session.find(CASH_SUMM_CSS).text.split(' ').join.to_f,
        ecash:@session.find(ECASH_SUMM_CSS).text.split(' ').join.to_f
    }
- end
+  end
 
 end

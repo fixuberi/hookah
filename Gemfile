@@ -43,6 +43,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'minitest-reporters',       '1.1.14'
 
+  gem 'capybara_minitest_spec'
+
 end
 
 group :development do
